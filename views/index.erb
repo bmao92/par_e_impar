@@ -1,0 +1,8 @@
+<h1>Hola</h1>
+<% @numeros.each do |num| %>
+<%if num %2 == 0 %>
+   <h4><%= "#{num} Soy Par!" %></h4>
+   <% else %>
+   <h4><%= "#{num} Soy Impar!" %></h4>
+   <% end %>
+<% end %>
